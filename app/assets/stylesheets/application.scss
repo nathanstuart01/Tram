@@ -1,0 +1,348 @@
+@import 'materialize';
+@import 'alert';
+/*@import 'font-awesome';*/
+
+
+body {
+padding: 0;
+margin-top: 0;
+}
+
+li {
+  font-size: 19px;
+}
+
+p {
+  font-size: 17px;
+}
+
+.body_width {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tram_title {
+  font-size: 100px;
+}
+
+.signup_page {
+  padding-top: 70px;
+  background-color: black;
+  background-repeat: repeat;
+  height: 100vh;
+  color: silver;
+
+}
+
+.login_page {
+  background-color: black;
+  background-repeat: repeat;
+  background-size: 100%;
+  color: silver;
+  height: 100vh;
+  padding: 70px;
+}
+
+.form_login {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+/*>>>>>>>>>>>HOME PAGE>>>>>>>>>>>>> */
+
+.home_page {
+
+  height: 100vh;
+  // background-image: url('https://0.s3.envato.com/files/167205226/Prev%20PIC%20snow.jpg');
+  background-image: url(asset_path('HomeBackground.jpg'));
+  background-size: cover;
+  // background-image: url('https://cdn.shutterstock.com/shutterstock/videos/3211894/thumb/1.jpg?i10c=img.resize(height:160)');
+  color: black;
+}
+
+.home_title {
+  font-size: 140px;
+  margin-top: 65px;
+  float: left;
+}
+
+.home_slogan {
+  margin-top: 230px;
+}
+
+.home_signup_btn {
+  margin-top: 80px;
+  margin-left: 40%;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*>>>>>>>>>>>>>ABOUT US PAGE>>>>>>>>>>>>>>>>>>>*/
+
+.about_title {
+  font-size: 160px; 
+}
+
+
+.about_page {
+  background-color: black;
+  // background-image: url('https://nextadventure.net/media/blog/uploads/files/resize/IMG_1723_0-400x300.JPG');
+  background-repeat: repeat; 
+  // background-image: url('https://cdn.shutterstock.com/shutterstock/videos/3211894/thumb/1.jpg?i10c=img.resize(height:160)');
+  color: silver;
+}
+
+.about_tram {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+// .home_title {
+//   color: silver;
+// }
+
+.developers {
+  float: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about_me {
+  margin-left: 400px;
+  float: right;
+  font-size: 15px;
+
+}
+
+.paragraph {
+  font-size: 17px;
+  width: 90%;
+  margin-left: 4%;
+}
+
+.driver_trip_card {
+  padding: 14px;
+  background-color: #A2B6C1;
+  margin: 3px;
+  border-radius: 8px;
+}
+
+.developer1 {
+  float: left;
+  width: 40%;
+  height: 850px;
+  padding: 10px;
+  border-radius: 7px;
+  margin-left: 7%;
+}
+
+.dev_name {
+  text-align: center;
+  color: silver;
+}
+
+
+/*>>>>>>>>>>>>>>>>>NAVBAR>>>>>>>>>>>>>>>>>>>*/
+#nav {
+  padding-left: 20px;
+  padding-top: 7px;
+  height: 80px;
+  background-color: #37474f;
+}
+
+.nav-logo {
+  padding-bottom: 3px;
+  width: 200px;
+  height: 72px;
+  color: white;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*>>>>>>>>>>>>>USER PROFILE>>>>>>>>>>>>>>>>>*/
+
+
+.trip_loop {
+  float: right;
+  margin-top: 32px;
+  width: 50%;
+  background-color: #E7EAED;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.rider_loop {
+  float: left;
+  margin-top: 54px;
+  width: 45%;
+  background-color: #E7EAED;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.rider_header {
+  font-size: 30px;
+  text-align: center;
+}
+
+.trip_header {
+  font-size: 30px;
+  text-align: center;
+}
+
+.user_header_name {
+  height: 300px;
+  padding: 15px;
+}
+
+.user_image_div {
+  
+}
+
+.user_image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+  border: 3px solid dimgrey;
+  border-radius: 7px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.rider_image {
+  border: 2px solid grey;
+  margin-right: 4px;
+  border-radius: 7px;
+}
+
+.driver_image {
+  border: 2px solid grey;
+  border-radius: 7px;
+}
+
+.car_attributes_rider {
+  text-indent: 10px;
+  padding-top: 5px;
+}
+
+.btn {
+  margin-right: 6px;
+}
+
+.cars_header {
+  display: inline;
+}
+
+.manage_car {
+  float: right;
+  margin-right: 10%;
+}
+
+.toggle {
+  float: right;
+}
+
+.collapsible-header {
+  background-color: #C8D2D7;
+}
+
+.collapsible-body {
+  background-color: #F6F6F7
+}
+
+.driver_trip_body {
+  background-color: #F6F6F7
+}
+
+/*>>>>>>>>>>SEARCH BAR>>>>>>>>>>>>>>>>> */
+.search_bar_container {
+  height: 80px;
+
+}
+
+// .clear_btn {
+//   float: right;
+// }
+
+.search_btns {
+  float: right;
+  margin-left: 10px;
+}
+
+.search_form {
+  float: left;
+  width: 55%;
+}
+
+.search_header {
+  float: left;
+  margin-right: 20px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.input[type=text]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+.col.s6 > .btn {
+   width: 100%;
+}
+
+
+
+/*>>>>>>>>>>>TRIP SHOW PAGE FOR DRIVER >>>>>>>>>>>>>>*/
+
+.trip_messages { /* give messages or map a specified div size */
+  float: right;
+  width: 46%;
+  margin-top: 60px;
+  background-color: #607d8b;
+  border-radius: 7px;
+  padding: 15px;
+}
+
+.message_header {
+  color: white;
+}
+
+.message_collection {
+
+}
+
+.trip_details {
+  float: left;
+  width: 50%
+}
+
+.trip_map {
+  float: left;
+  width: 45%;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/*>>>>>>>>>>>SNOW REPORT PAGE>>>>>>>>>>>>>>>>>>>> */
+
+// .snow_report_page {
+//   background-color: #e0e0e0;
+//   background-size: repeat;
+//   height: 100vh;
+// }
+
+.snow_report_div {
+  float: left;
+  width: 30%;
+  height: 650px;
+  background-color: #90a4ae;
+  padding: 10px;
+  border-radius: 7px;
+  margin: 20px;
+}
+
+.new_snow {
+  font-size: 19px;
+}
